@@ -1,0 +1,87 @@
+@import url('href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    background-color: #4385f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    display: flex;
+}
+
+.header_Principal {
+    height: 0;
+    display: flex;
+}
+
+.nav {
+    display: inline-flex;
+}
+
+.img_header {
+    display: inline-flex;
+    height: 220px;
+    border-bottom-right-radius: 15px;
+}
+
+.div-curso1 {
+    height: 75px;
+    width: 100px;
+    background-color: #ffffff;
+    margin-left: 20px;
+    width: 467px;
+    border-radius: 10px;
+    box-shadow: none;
+    text-decoration: underline;
+    position: center top;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration:none
+}
+
+.div-curso2 {
+    height: 75px;
+    background-color: #ffffff;
+    margin-left: 50px;
+    width: 467px;
+    border-radius: 10px;
+    box-shadow: none;
+    text-decoration: underline;
+    position: center top;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration:none
+}
+
+a:link {
+    text-decoration: none;
+   }
+   
+   a:hover {
+    text-decoration: underline;
+   }
+   
+.list1 {
+    background: #ffffff;
+    text-decoration: underline;
+    box-shadow: none;
+    align-items: center;
+    flex-direction: column;
+    gap: 4px;
+    text-decoration: none;
+}
+
+.list2 {
+    background: #ffffff;
+    text-decoration: underline;
+    box-shadow: none;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    text-decoration: none;
+}
