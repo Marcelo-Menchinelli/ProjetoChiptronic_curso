@@ -38,6 +38,7 @@
     position: absolute;
     display: block;
     top: 220px;
+    left: -209px;
 }
 
 .header_Principal {
@@ -95,7 +96,7 @@
     gap: 4px;
     text-decoration: none;
     top: 0;
-    left: -250px;
+    left: -245px;
     font-size: 12px;
 }
 
@@ -135,6 +136,10 @@ a:hover {
     top: 656px;
 }
 
+.link-login {
+    border-radius: 9px;
+}
+
 .section-h2 {
     position: relative;
     left: 200px;
@@ -153,4 +158,11 @@ a:hover {
     padding-bottom: 12px;
     top:5px;
     left: 20px;
+}
+
+.section-orcamento {
+position: relative;
+display: inline-block;
+bottom: 961px;
+left: 526px;
 }
